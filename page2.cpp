@@ -1,4 +1,4 @@
-#include <iostream>
+opyuwfd#include <iostream>
 бебра 
 еще одна
 int main(){
