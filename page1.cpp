@@ -1,5 +1,5 @@
 #include <iostream>
-sdvvsdsd
+
 int main() {
     что то добавил
     ubral
