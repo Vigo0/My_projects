@@ -1,0 +1,18 @@
+=== Сетевые настройки ===
+    inet 127.0.0.1/8 scope host lo
+    inet 10.170.78.64/24 brd 10.170.78.255 scope global dynamic noprefixroute wlan0
+
+=== Шлюз ===
+default via 10.170.78.53 dev wlan0 proto dhcp src 10.170.78.64 metric 600 
+
+=== Ping google.com ===
+PING google.com (64.233.163.100) 56(84) bytes of data.
+64 bytes from lj-in-f100.1e100.net (64.233.163.100): icmp_seq=1 ttl=107 time=32.4 ms
+64 bytes from lj-in-f100.1e100.net (64.233.163.100): icmp_seq=2 ttl=107 time=43.3 ms
+64 bytes from lj-in-f100.1e100.net (64.233.163.100): icmp_seq=3 ttl=107 time=48.4 ms
+64 bytes from lj-in-f100.1e100.net (64.233.163.100): icmp_seq=4 ttl=107 time=44.9 ms
+64 bytes from lj-in-f100.1e100.net (64.233.163.100): icmp_seq=5 ttl=107 time=45.7 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4001ms
+rtt min/avg/max/mdev = 32.369/42.930/48.378/5.528 ms
