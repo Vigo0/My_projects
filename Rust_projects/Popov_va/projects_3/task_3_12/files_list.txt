@@ -1,0 +1,15 @@
+vacation_photo.jpg
+
+report_2025.pdf
+
+icon_main.png
+
+notes.txt
+
+background_image.gif
+
+script.sh
+
+old_backup.zip
+
+avatar.jpg
